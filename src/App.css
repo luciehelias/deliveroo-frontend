@@ -1,0 +1,65 @@
+body {
+  background-color: #f3f5f5;
+}
+
+/* ------ Header ------- */
+
+.header {
+  background-color: white;
+}
+
+.topHeader {
+  border-bottom: 1px solid #e9ebeb;
+  margin: 0 auto;
+}
+
+.topHeader img {
+  margin: 10px 20px;
+  height: 40px;
+}
+
+.restaurantInfos {
+  display: flex;
+  margin: 0 20px;
+  padding: 30px 0;
+}
+
+.restaurantInfos img {
+  overflow: hidden;
+  border-radius: 5px;
+  width: 800px;
+}
+
+.restaurantTexts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.restaurantTexts h1 {
+  font-size: 32px;
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  margin: 26px 0;
+}
+
+.restaurantTexts p {
+  font-size: 18px;
+  font-family: "IBM Plex Sans";
+  color: #999c9c;
+  line-height: 1.75;
+}
+
+/* ------Content------ */
+
+.content {
+  margin: 0 20px;
+  padding: 20px 0;
+}
+
+.titleCategorie {
+  height: 400px;
+  font-size: 26px;
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+}
