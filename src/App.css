@@ -57,9 +57,70 @@ body {
   padding: 20px 0;
 }
 
-.titleCategorie {
-  height: 400px;
+.menuCategorie {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.menuCategorie h2 {
   font-size: 26px;
   font-family: "IBM Plex Sans";
   font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  margin: 30px;
+  overflow: hidden;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  height: 160px;
+}
+
+.menuText {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding-right: 15px;
+}
+
+.menuText h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.menuText p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-family: "IBM Plex Sans";
+  color: #898d8d;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.menuText span {
+  font-size: 20px;
+  color: #898d8d;
+  font-family: "IBM Plex Sans";
+}
+
+.menuImage {
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.menuImage img {
+  height: 100%;
+  width: 100%;
 }

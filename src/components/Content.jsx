@@ -4,8 +4,8 @@ const Content = ({ data }) => {
   return (
     <>
       <section className="content">
-        {data.categories.map((elem) => {
-          return <MenuItems name={elem.name} />;
+        {data.categories.map((elem, index) => {
+          return <MenuItems key={index} name={elem.name} meals={elem.meals} />;
         })}
       </section>
     </>
