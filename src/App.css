@@ -78,13 +78,13 @@ body {
 
 .menu {
   display: flex;
-  width: 50%;
+  width: 340px;
   margin: 30px;
   overflow: hidden;
   background-color: white;
   padding: 15px;
   border-radius: 5px;
-  height: 160px;
+  height: 140px;
 }
 
 .menuText {
@@ -95,16 +95,17 @@ body {
 }
 
 .menuText h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
 .menuText p {
   text-overflow: ellipsis;
+  font-size: 14px;
   overflow: hidden;
   font-family: "IBM Plex Sans";
   color: #898d8d;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 20px;
 }
 
@@ -115,7 +116,7 @@ body {
 }
 
 .menuImage {
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 5px;
   overflow: hidden;
 }
