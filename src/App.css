@@ -79,7 +79,7 @@ body {
 .menu {
   display: flex;
   width: 340px;
-  margin: 30px;
+  margin: 30px 10px;
   overflow: hidden;
   background-color: white;
   padding: 15px;
@@ -109,10 +109,11 @@ body {
   margin-bottom: 20px;
 }
 
-.menuText span {
+.price {
   font-size: 20px;
   color: #898d8d;
   font-family: "IBM Plex Sans";
+  margin-right: 30px;
 }
 
 .menuImage {
@@ -124,4 +125,21 @@ body {
 .menuImage img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+}
+
+.popular {
+  color: #ff871f;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menuTextDetails {
+  display: flex;
+}
+
+.icon-STAR_FILL {
+  color: #ff871f;
+  font-size: 18px;
 }

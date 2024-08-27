@@ -13,7 +13,15 @@ const MenuItem = ({ title, description, price, picture, popular }) => {
         <div className="menuText">
           <h3>{title}</h3>
           <p>{description}</p>
-          <span>{price} €</span>
+          <div className="menuTextDetails">
+            <span className="price">{price} €</span>
+            {popular && (
+              <div>
+                <i className="icon-STAR_FILL"> </i>
+                <span className="popular"> Populaire</span>
+              </div>
+            )}
+          </div>
         </div>
         {imageExists && picture && (
           <div className="menuImage">
